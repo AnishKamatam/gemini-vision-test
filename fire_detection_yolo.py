@@ -1,8 +1,8 @@
 import cv2
 from ultralytics import YOLO
 
-# Use the more accurate model: 'yolov8s.pt'
-MODEL_PATH = "yolov8s.pt"
+# Use the more accurate model: 'runs/detect/train/weights/best.pt'
+MODEL_PATH = "runs/detect/train/weights/best.pt"
 model = YOLO(MODEL_PATH)
 
 # Open webcam

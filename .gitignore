@@ -1,2 +1,40 @@
 .history
 .env
+
+# Ignore large files and folders
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.mp3
+*.wav
+*.flac
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.tflite
+*.pb
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.npz
+*.npy
+*.csv
+*.json
+*.xml
+*.yml
+*.yaml
+# Ignore dataset and output folders
+fire-8/
+runs/
+output/
+datasets/
+# Ignore system files
+.DS_Store
+Thumbs.db
